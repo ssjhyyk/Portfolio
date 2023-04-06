@@ -1,0 +1,108 @@
+html {
+    height: 100%;
+    font-size: 24px;
+    line-height: 1.6;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.view {
+    display: grid;
+    grid-template-columns: repeat(10, 10%);
+    height: 100%;
+}
+
+.split {
+    padding: 3rem 2rem;
+    grid-column-start: span 6;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.right {
+    background: black;
+    color: white;
+    grid-column-start: span 4;
+}
+
+.scrollable {
+    overflow: auto;
+    height: 100%;
+    margin: -3rem -2rem;
+    padding: 3rem 2rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.polaroid {
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: 0 4px 8px 0 rgb(253, 253, 253), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+
+.polariod #container {
+    justify-content: center;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.icons {
+    display: flex;
+    text-align: left;
+    justify-content: left;
+}
+
+.connect {
+    justify-content: left;
+    text-align: left;
+    flex: 30%;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.icons img {
+    height: 35px;
+    width: 35px;
+}
+
+.icons img:hover {
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+
+input[type=submit] {
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+input[type=submit]:hover {
+    color: gray;
+}
