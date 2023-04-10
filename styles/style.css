@@ -49,8 +49,8 @@ body {
 }
 
 .polaroid {
+    background: #dad9d7;
     width: 80%;
-    background-color: rgba(255, 255, 255, 0);
     margin-bottom: 25px;
     border-width: 2px;
     box-shadow: 0 4px 8px 0 #808080, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
