@@ -70,6 +70,15 @@ p {
     color: #000000;
 }
 
+a{
+    color: #000000;
+}
+ 
+a:hover{
+    text-shadow: red 0 -2px;
+
+}
+
 .polariod:hover {
     box-shadow: 0 4px 8px 0 #ffffff, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
